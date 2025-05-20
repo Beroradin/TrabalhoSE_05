@@ -14,6 +14,7 @@ Para este trabalho foi necessário implementar um sistema de monitoramento de ch
 - Controlar o LED RGB indicando o modo de operação (verde para normal, vermelho piscante para alerta)
 - Acionar um buzzer quando o sistema entra em modo de alerta
 - Implementar um sistema de tempo real usando FreeRTOS para gerenciar todas as tarefas
+- Utilizar da API de Filas para o controle da transmissão de dados do sistema
 
 ## :books: Descrição do Projeto
 Utilizou-se a placa Raspberry Pi Pico (com o microcontrolador RP2040) para criar um sistema completo de monitoramento de cheias. O sistema simula leituras de sensores através de um joystick analógico conectado às entradas ADC. O eixo X controla o nível de água (0-100%) e o eixo Y controla o volume de chuva (0-9).
